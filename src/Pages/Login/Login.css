@@ -1,0 +1,56 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    background:  url("https://wallpaperaccess.com/full/427852.jpg");
+    background-size: cover;
+  
+}
+.logintitle{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+}
+.link{
+    text-decoration: none;
+    color: "";}
+    
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform > lable{
+margin: 10px 0;
+color: black;
+font-weight: 600;
+}
+.logininput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color:white;
+    border-radius: 10px;
+    padding: 6px;
+}
+.loginregister{
+    position: relative;
+    top: 20px;
+    right: 0px;
+    width: 110px;
+    height: 30px;
+    background-color: teal;
+    border-radius: 10px;
+    border: none;
+    color: wheat;
+  
+    
+}

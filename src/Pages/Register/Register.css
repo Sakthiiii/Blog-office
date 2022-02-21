@@ -1,0 +1,55 @@
+.Register{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    background:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZ7ISk3B78VEK_bw7PRtIDbRae2ruOB36uQ&usqp=CAU");
+    background-size: cover;
+  
+}
+.Registertitle{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+}
+.Registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Registerform > lable{
+margin: 10px 0;
+color: black;
+font-weight: 600;
+}
+.Registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.Registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color:white;
+    border-radius: 10px;
+    padding: 6px;
+}
+.Registerlogin{
+    position: relative;
+    top: 20px;
+    right: 0px;
+    width: 110px;
+    height: 30px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    border: none;
+   
+  
+    
+}
+.link{
+    text-decoration: none;
+    color: "";}

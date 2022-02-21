@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+}
+.sidebaritem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebartitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid lightcoral;
+    border-bottom: 1px solid lightcoral;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+.sidebaritem > img {
+    margin-top: 20px;
+}
+.sidebaritem >p{
+    padding: 20px;
+}
+.sidebarsocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
